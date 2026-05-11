@@ -1,6 +1,6 @@
 // ============================================
 // TEST FINAL - Konsonantengruppen sp, st, sch, tsch + Doppelbuchstaben + haben
-// Claudia Toth · A0.1 · Lecția 7 · 15 întrebări mixte
+// Claudia Toth · A0 — Fonetică · Lecția 7 · 15 întrebări mixte
 // ============================================
 
 const finalTestData = [

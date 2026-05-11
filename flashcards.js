@@ -1,6 +1,6 @@
 // ============================================
 // FLASHCARDS - Konsonantengruppen sp, st, sch, tsch + Doppelbuchstaben + haben
-// Claudia Toth · A0.1 · Lecția 7 · 32 carduri
+// Claudia Toth · A0 — Fonetică · Lecția 7 · 32 carduri
 // Audio profesional pre-generat cu Hedda
 // ============================================
 

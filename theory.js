@@ -1,6 +1,6 @@
 // ============================================
 // TEORIE - Konsonantengruppen sp, st, sch, tsch + Doppelbuchstaben + haben
-// Claudia Toth · Curs A0.1 · Lecția 7 din 7 (FINALĂ)
+// Claudia Toth · A0 — Fonetică · Lecția 7 din 7 (FINALĂ)
 // ============================================
 
 const theoryHTML = `
