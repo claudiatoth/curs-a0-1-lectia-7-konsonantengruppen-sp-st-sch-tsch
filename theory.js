@@ -25,31 +25,16 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>die Schule</strong><br>
-                            <strong>schön</strong><br>
-                            <strong>der Schnee</strong><br>
-                            <strong>der Schmetterling</strong><br>
-                            <strong>schwarz</strong><br>
-                            <strong>schreiben</strong><br>
-                            <strong>der Fisch</strong><br>
-                            <strong>der Tisch</strong>
-                        </td>
-                        <td>
-                            Șule<br>
-                            Șö:n<br>
-                            Șne:<br>
-                            Șmeterling<br>
-                            Șvarț<br>
-                            Șraibăn<br>
-                            Fiș<br>
-                            Tiș<br>
-                            <span class="ro-translation">școala · frumos · zăpada · fluturele · negru · a scrie · peștele · masa</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>die Schule</strong></td><td>Șule</td><td><span class="ro-translation">școala</span></td></tr>
+                    <tr><td><strong>schön</strong></td><td>Șö:n</td><td><span class="ro-translation">frumos</span></td></tr>
+                    <tr><td><strong>der Schnee</strong></td><td>Șne:</td><td><span class="ro-translation">zăpada</span></td></tr>
+                    <tr><td><strong>der Schmetterling</strong></td><td>Șmeterling</td><td><span class="ro-translation">fluturele</span></td></tr>
+                    <tr><td><strong>schwarz</strong></td><td>Șvarț</td><td><span class="ro-translation">negru</span></td></tr>
+                    <tr><td><strong>schreiben</strong></td><td>Șraibăn</td><td><span class="ro-translation">a scrie</span></td></tr>
+                    <tr><td><strong>der Fisch</strong></td><td>Fiș</td><td><span class="ro-translation">peștele</span></td></tr>
+                    <tr><td><strong>der Tisch</strong></td><td>Tiș</td><td><span class="ro-translation">masa</span></td></tr>
                 </tbody>
             </table>
         </div>
@@ -129,29 +114,15 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>Deutschland</strong><br>
-                            <strong>deutsch</strong><br>
-                            <strong>tschüss</strong><br>
-                            <strong>Tschechien</strong><br>
-                            <strong>der Quatsch</strong><br>
-                            <strong>rutschen</strong><br>
-                            <strong>der Matsch</strong>
-                        </td>
-                        <td>
-                            Doitș-land<br>
-                            doitș<br>
-                            tșüs<br>
-                            Tșe-hi-ăn<br>
-                            Cvatș<br>
-                            Rutșăn<br>
-                            Matș<br>
-                            <span class="ro-translation">Germania · german/germană · pa! · Cehia · prostia · a aluneca · noroiul</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>Deutschland</strong></td><td>Doitș-land</td><td><span class="ro-translation">Germania</span></td></tr>
+                    <tr><td><strong>deutsch</strong></td><td>doitș</td><td><span class="ro-translation">german / germană</span></td></tr>
+                    <tr><td><strong>tschüss</strong></td><td>tșüs</td><td><span class="ro-translation">pa! (informal)</span></td></tr>
+                    <tr><td><strong>Tschechien</strong></td><td>Tșe-hi-ăn</td><td><span class="ro-translation">Cehia</span></td></tr>
+                    <tr><td><strong>der Quatsch</strong></td><td>Cvatș</td><td><span class="ro-translation">prostia</span></td></tr>
+                    <tr><td><strong>rutschen</strong></td><td>Rutșăn</td><td><span class="ro-translation">a aluneca</span></td></tr>
+                    <tr><td><strong>der Matsch</strong></td><td>Matș</td><td><span class="ro-translation">noroiul</span></td></tr>
                 </tbody>
             </table>
         </div>
@@ -179,33 +150,17 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>aa, ee, oo</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>das Haar</strong><br>
-                            <strong>das Paar</strong><br>
-                            <strong>der Saal</strong><br>
-                            <strong>der Tee</strong><br>
-                            <strong>der See</strong><br>
-                            <strong>das Beet</strong><br>
-                            <strong>das Boot</strong><br>
-                            <strong>der Zoo</strong><br>
-                            <strong>das Moor</strong>
-                        </td>
-                        <td>
-                            Ha:r (a lung)<br>
-                            Pa:r (a lung)<br>
-                            Za:l (a lung)<br>
-                            Te: (e lung)<br>
-                            Ze: (e lung)<br>
-                            Be:t (e lung)<br>
-                            Bo:t (o lung)<br>
-                            Țo: (o lung)<br>
-                            Mo:r (o lung)<br>
-                            <span class="ro-translation">părul · perechea · sala · ceaiul · lacul · răsadnița · barca · grădina zoologică · mlaștina</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>das Haar</strong></td><td>Ha:r (a lung)</td><td><span class="ro-translation">părul</span></td></tr>
+                    <tr><td><strong>das Paar</strong></td><td>Pa:r (a lung)</td><td><span class="ro-translation">perechea</span></td></tr>
+                    <tr><td><strong>der Saal</strong></td><td>Za:l (a lung)</td><td><span class="ro-translation">sala</span></td></tr>
+                    <tr><td><strong>der Tee</strong></td><td>Te: (e lung)</td><td><span class="ro-translation">ceaiul</span></td></tr>
+                    <tr><td><strong>der See</strong></td><td>Ze: (e lung)</td><td><span class="ro-translation">lacul</span></td></tr>
+                    <tr><td><strong>das Beet</strong></td><td>Be:t (e lung)</td><td><span class="ro-translation">răsadnița</span></td></tr>
+                    <tr><td><strong>das Boot</strong></td><td>Bo:t (o lung)</td><td><span class="ro-translation">barca</span></td></tr>
+                    <tr><td><strong>der Zoo</strong></td><td>Țo: (o lung)</td><td><span class="ro-translation">grădina zoologică</span></td></tr>
+                    <tr><td><strong>das Moor</strong></td><td>Mo:r (o lung)</td><td><span class="ro-translation">mlaștina</span></td></tr>
                 </tbody>
             </table>
         </div>
@@ -233,31 +188,16 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Consoană dublă</th><th>Cum se citește (vocala scurtă)</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>das Wasser</strong><br>
-                            <strong>die Kasse</strong><br>
-                            <strong>kommen</strong><br>
-                            <strong>der Mann</strong><br>
-                            <strong>die Sonne</strong><br>
-                            <strong>der Sommer</strong><br>
-                            <strong>schwimmen</strong><br>
-                            <strong>der Bett</strong>
-                        </td>
-                        <td>
-                            Vasăr (a scurt)<br>
-                            Kase (a scurt)<br>
-                            Comăn (o scurt)<br>
-                            Man (a scurt)<br>
-                            Zone (o scurt)<br>
-                            Zomăr (o scurt)<br>
-                            Șvimăn (i scurt)<br>
-                            Bet (e scurt)<br>
-                            <span class="ro-translation">apa · casa de marcat · a veni · bărbatul · soarele · vara · a înota · patul</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>das Wasser</strong></td><td>Vasăr (a scurt)</td><td><span class="ro-translation">apa</span></td></tr>
+                    <tr><td><strong>die Kasse</strong></td><td>Kase (a scurt)</td><td><span class="ro-translation">casa de marcat</span></td></tr>
+                    <tr><td><strong>kommen</strong></td><td>Comăn (o scurt)</td><td><span class="ro-translation">a veni</span></td></tr>
+                    <tr><td><strong>der Mann</strong></td><td>Man (a scurt)</td><td><span class="ro-translation">bărbatul</span></td></tr>
+                    <tr><td><strong>die Sonne</strong></td><td>Zone (o scurt)</td><td><span class="ro-translation">soarele</span></td></tr>
+                    <tr><td><strong>der Sommer</strong></td><td>Zomăr (o scurt)</td><td><span class="ro-translation">vara</span></td></tr>
+                    <tr><td><strong>schwimmen</strong></td><td>Șvimăn (i scurt)</td><td><span class="ro-translation">a înota</span></td></tr>
+                    <tr><td><strong>das Bett</strong></td><td>Bet (e scurt)</td><td><span class="ro-translation">patul</span></td></tr>
                 </tbody>
             </table>
 
