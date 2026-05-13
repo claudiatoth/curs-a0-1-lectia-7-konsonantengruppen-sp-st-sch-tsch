@@ -2,6 +2,21 @@
 // TEST FINAL - Konsonantengruppen sp, st, sch, tsch + Doppelbuchstaben + haben
 // Claudia Toth · A0 — Fonetică · Lecția 7 · 15 întrebări mixte
 // ============================================
+// Normalizare răspuns: acceptă AMBELE forme (cu/fără diacritice germane)
+// ß↔ss · ä↔ae · ö↔oe · ü↔ue · lowercase · trim · fără punctuație
+function normalizeAnswer(str) {
+    return (str || '')
+        .toString()
+        .toLowerCase()
+        .trim()
+        .replace(/ß/g, 'ss')
+        .replace(/ä/g, 'ae')
+        .replace(/ö/g, 'oe')
+        .replace(/ü/g, 'ue')
+        .replace(/\s+/g, ' ')
+        .replace(/[.,!?;:]/g, '');
+}
+
 
 const finalTestData = [
     // 5x MC reguli
@@ -154,8 +169,8 @@ function checkCurrentQuestion() {
     if (q.type === 'multiple') {
         isCorrect = userAnswer.toLowerCase() === q.correct.toLowerCase();
     } else {
-        const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ');
-        isCorrect = q.accept.some(a => a.toLowerCase().replace(/\s+/g, ' ') === norm);
+        const norm = normalizeAnswer(userAnswer);
+        isCorrect = q.accept.some(a => normalizeAnswer(a) === norm);
     }
     userAnswers[currentQuestionIndex] = { answer: userAnswer, correct: isCorrect, checked: true };
     displayFeedback(currentQuestionIndex);

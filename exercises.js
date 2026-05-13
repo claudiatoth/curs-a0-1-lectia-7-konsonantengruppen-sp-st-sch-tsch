@@ -2,6 +2,21 @@
 // EXERCIȚII - Konsonantengruppen sp, st, sch, tsch + Doppelbuchstaben + haben
 // Claudia Toth · A0 — Fonetică · Lecția 7 · 5 exerciții
 // ============================================
+// Normalizare răspuns: acceptă AMBELE forme (cu/fără diacritice germane)
+// ß↔ss · ä↔ae · ö↔oe · ü↔ue · lowercase · trim · fără punctuație
+function normalizeAnswer(str) {
+    return (str || '')
+        .toString()
+        .toLowerCase()
+        .trim()
+        .replace(/ß/g, 'ss')
+        .replace(/ä/g, 'ae')
+        .replace(/ö/g, 'oe')
+        .replace(/ü/g, 'ue')
+        .replace(/\s+/g, ' ')
+        .replace(/[.,!?;:]/g, '');
+}
+
 
 // ============================================
 // EXERCIȚIUL 1: Cum se citește grupul îngroșat?
@@ -124,8 +139,8 @@ function checkEx3() {
     ex3Data.forEach(it => {
         const inp = document.getElementById(`ex3-${it.id}`);
         const fb = document.getElementById(`ex3-f${it.id}`);
-        const ans = (inp.value || '').trim().toLowerCase();
-        if (it.accept.some(a => a.toLowerCase() === ans)) {
+        const ans = normalizeAnswer(inp.value);
+        if (it.accept.some(a => normalizeAnswer(a) === ans)) {
             fb.className = 'feedback correct';
             fb.textContent = `Corect: ${it.correct}`;
             correct++;
@@ -212,8 +227,8 @@ function checkEx5() {
     ex5Data.forEach(it => {
         const inp = document.getElementById(`ex5-${it.id}`);
         const fb = document.getElementById(`ex5-f${it.id}`);
-        const ans = (inp.value || '').trim().toLowerCase();
-        if (it.accept.some(a => a.toLowerCase() === ans)) {
+        const ans = normalizeAnswer(inp.value);
+        if (it.accept.some(a => normalizeAnswer(a) === ans)) {
             fb.className = 'feedback correct';
             fb.textContent = `Corect: ${it.correct}`;
             correct++;
