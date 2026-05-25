@@ -6,30 +6,30 @@
 
 const flashcardsData = [
     // ========== Sch (6 carduri) ==========
-    { de: "die Schule", ro: "școala · sch = „ș” → Șule", audio: "audio/letters/schule.wav" },
+    { de: "die Schule", ro: "școala · sch sună ca ș → Șule", audio: "audio/letters/schule.wav" },
     { de: "schön", ro: "frumos · → Șö:n", audio: "audio/letters/schoen.wav" },
     { de: "der Schnee", ro: "zăpada · → Șne:", audio: "audio/letters/schnee.wav" },
     { de: "der Schmetterling", ro: "fluturele · → Șmeterling", audio: "audio/letters/schmetterling.wav" },
     { de: "schwarz", ro: "negru · → Șvarț", audio: "audio/letters/schwarz.wav" },
     { de: "schreiben", ro: "a scrie · → Șraibăn", audio: "audio/letters/schreiben.wav" },
 
-    // ========== Sp/St la început = „șp”/„șt” (7 carduri) ==========
-    { de: "spielen", ro: "a se juca · sp- la început = „șp” → Șpi:lăn", audio: "audio/letters/spielen.wav" },
+    // ========== Sp/St la început sună ca șp/șt (7 carduri) ==========
+    { de: "spielen", ro: "a se juca · sp- la început sună ca șp → Șpi:lăn", audio: "audio/letters/spielen.wav" },
     { de: "sprechen", ro: "a vorbi · → Șprehăn", audio: "audio/letters/sprechen.wav" },
     { de: "der Sport", ro: "sportul · → Șport", audio: "audio/letters/sport.wav" },
-    { de: "stehen", ro: "a sta în picioare · st- la început = „șt” → Ște:ăn", audio: "audio/letters/stehen.wav" },
+    { de: "stehen", ro: "a sta în picioare · st- la început sună ca șt → Ște:ăn", audio: "audio/letters/stehen.wav" },
     { de: "die Stadt", ro: "orașul · → Ștat (a SCURT!)", audio: "audio/letters/stadt.wav" },
     { de: "der Stuhl", ro: "scaunul · → Știu:l", audio: "audio/letters/stuhl.wav" },
     { de: "der Stein", ro: "piatra · → Ștain", audio: "audio/letters/stein.wav" },
 
-    // ========== Sp/St în mijloc = „sp”/„st” normal (4 carduri) ==========
-    { de: "die Wespe", ro: "viespea · sp în mijloc = „sp” normal → Vespe", audio: "audio/letters/wespe.wav" },
-    { de: "die Kiste", ro: "cutia · st în mijloc = „st” normal → Kiste", audio: "audio/letters/kiste.wav" },
+    // ========== Sp/St în mijloc sună ca sp/st normal (4 carduri) ==========
+    { de: "die Wespe", ro: "viespea · sp în mijloc sună ca sp normal → Vespe", audio: "audio/letters/wespe.wav" },
+    { de: "die Kiste", ro: "cutia · st în mijloc sună ca st normal → Kiste", audio: "audio/letters/kiste.wav" },
     { de: "das Fenster", ro: "fereastra · → Fenstăr", audio: "audio/letters/fenster.wav" },
-    { de: "er ist", ro: "el este · st la sfârșit = „st” normal → ist", audio: "audio/letters/ist.wav" },
+    { de: "er ist", ro: "el este · st la sfârșit sună ca st normal → ist", audio: "audio/letters/ist.wav" },
 
     // ========== Tsch (3 carduri) ==========
-    { de: "Deutschland", ro: "Germania · tsch = „tș” → Doitșland", audio: "audio/letters/deutschland.wav" },
+    { de: "Deutschland", ro: "Germania · tsch sună ca tș → Doitșland", audio: "audio/letters/deutschland.wav" },
     { de: "tschüss", ro: "pa! · → tșüs", audio: "audio/letters/tschuess.wav" },
     { de: "der Quatsch", ro: "prostia · → Cvatș", audio: "audio/letters/quatsch.wav" },
 
