@@ -39,14 +39,14 @@ const theoryHTML = `
             <table class="theory-table">
                 <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr><td><strong>die Schule</strong></td><td>Șule</td><td><span class="ro-translation">școala</span></td></tr>
-                    <tr><td><strong>schön</strong></td><td>Șö:n</td><td><span class="ro-translation">frumos</span></td></tr>
-                    <tr><td><strong>der Schnee</strong></td><td>Șne:</td><td><span class="ro-translation">zăpada</span></td></tr>
-                    <tr><td><strong>der Schmetterling</strong></td><td>Șmeterling</td><td><span class="ro-translation">fluturele</span></td></tr>
-                    <tr><td><strong>schwarz</strong></td><td>Șvarț</td><td><span class="ro-translation">negru</span></td></tr>
-                    <tr><td><strong>schreiben</strong></td><td>Șraibăn</td><td><span class="ro-translation">a scrie</span></td></tr>
-                    <tr><td><strong>der Fisch</strong></td><td>Fiș</td><td><span class="ro-translation">peștele</span></td></tr>
-                    <tr><td><strong>der Tisch</strong></td><td>Tiș</td><td><span class="ro-translation">masa</span></td></tr>
+                    <tr><td><strong>die Schule · die Schulen</strong></td><td>Șule</td><td><span class="ro-translation">școala · școlile</span></td></tr>
+                    <tr><td><strong>schön</strong> (adjectiv)</td><td>Șö:n</td><td><span class="ro-translation">frumos</span></td></tr>
+                    <tr><td><strong>der Schnee</strong> (substantiv nenumărabil)</td><td>Șne:</td><td><span class="ro-translation">zăpada (DEX pl. „zăpezile" pentru zăpezi din diferite ierni)</span></td></tr>
+                    <tr><td><strong>der Schmetterling · die Schmetterlinge</strong></td><td>Șmeterling</td><td><span class="ro-translation">fluturele · fluturii</span></td></tr>
+                    <tr><td><strong>schwarz</strong> (adjectiv)</td><td>Șvarț</td><td><span class="ro-translation">negru</span></td></tr>
+                    <tr><td><strong>schreiben</strong> (verb)</td><td>Șraibăn</td><td><span class="ro-translation">a scrie</span></td></tr>
+                    <tr><td><strong>der Fisch · die Fische</strong></td><td>Fiș</td><td><span class="ro-translation">peștele · peștii</span></td></tr>
+                    <tr><td><strong>der Tisch · die Tische</strong></td><td>Tiș</td><td><span class="ro-translation">masa · mesele</span></td></tr>
                 </tbody>
             </table>
         </div>
@@ -78,22 +78,22 @@ const theoryHTML = `
                 <tbody>
                     <tr>
                         <td>
-                            <strong>spielen</strong> → Șpi:lăn (a se juca)<br>
-                            <strong>sprechen</strong> → Șpreheăn (a vorbi)<br>
-                            <strong>der Sport</strong> → Șport (sportul)<br>
-                            <strong>stehen</strong> → Ște:ăn (a sta în picioare)<br>
-                            <strong>die Stadt</strong> → Ștat (orașul)<br>
-                            <strong>der Stuhl</strong> → Știu:l (scaunul)<br>
-                            <strong>der Stein</strong> → Ștain (piatra)
+                            <strong>spielen</strong> → Șpi:lăn (a se juca — verb)<br>
+                            <strong>sprechen</strong> → Șpreheăn (a vorbi — verb)<br>
+                            <strong>der Sport · die Sportarten</strong> → Șport (sportul · sporturile/disciplinele)<br>
+                            <strong>stehen</strong> → Ște:ăn (a sta în picioare — verb)<br>
+                            <strong>die Stadt · die Städte</strong> → Ștat (orașul · orașele)<br>
+                            <strong>der Stuhl · die Stühle</strong> → Știu:l (scaunul · scaunele)<br>
+                            <strong>der Stein · die Steine</strong> → Ștain (piatra · pietrele)
                         </td>
                         <td>
-                            <strong>die Wespe</strong> → Vespe (viespea)<br>
-                            <strong>die Knospe</strong> → Cnospe (mugurele)<br>
-                            <strong>die Kiste</strong> → Kiste (cutia)<br>
-                            <strong>der Osten</strong> → Ostăn (estul)<br>
-                            <strong>das Fenster</strong> → Fenstăr (fereastra)<br>
-                            <strong>er ist</strong> → ist (el este)<br>
-                            <strong>die Lust</strong> → Lust (pofta)
+                            <strong>die Wespe · die Wespen</strong> → Vespe (viespea · viespile)<br>
+                            <strong>die Knospe · die Knospen</strong> → Cnospe (mugurele · mugurii)<br>
+                            <strong>die Kiste · die Kisten</strong> → Kiste (cutia · cutiile)<br>
+                            <strong>der Osten</strong> → Ostăn (estul — direcție; substantiv invariabil)<br>
+                            <strong>das Fenster · die Fenster</strong> → Fenstăr (fereastra · ferestrele)<br>
+                            <strong>er ist</strong> → ist (el este — verb sein)<br>
+                            <strong>die Lust · die Lüste</strong> → Lust (pofta · poftele)
                         </td>
                     </tr>
                 </tbody>
@@ -128,13 +128,13 @@ const theoryHTML = `
             <table class="theory-table">
                 <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr><td><strong>Deutschland</strong></td><td>Doitș-land</td><td><span class="ro-translation">Germania</span></td></tr>
-                    <tr><td><strong>deutsch</strong></td><td>doitș</td><td><span class="ro-translation">german / germană</span></td></tr>
-                    <tr><td><strong>tschüss</strong></td><td>tșüs</td><td><span class="ro-translation">pa! (informal)</span></td></tr>
-                    <tr><td><strong>Tschechien</strong></td><td>Tșe-hi-ăn</td><td><span class="ro-translation">Cehia</span></td></tr>
-                    <tr><td><strong>der Quatsch</strong></td><td>Cvatș</td><td><span class="ro-translation">prostia</span></td></tr>
-                    <tr><td><strong>rutschen</strong></td><td>Rutșăn</td><td><span class="ro-translation">a aluneca</span></td></tr>
-                    <tr><td><strong>der Matsch</strong></td><td>Matș</td><td><span class="ro-translation">noroiul</span></td></tr>
+                    <tr><td><strong>Deutschland</strong> (nume țară)</td><td>Doitș-land</td><td><span class="ro-translation">Germania</span></td></tr>
+                    <tr><td><strong>deutsch</strong> (adjectiv)</td><td>doitș</td><td><span class="ro-translation">german / germană</span></td></tr>
+                    <tr><td><strong>tschüss</strong> (interjecție)</td><td>tșüs</td><td><span class="ro-translation">pa! (informal)</span></td></tr>
+                    <tr><td><strong>Tschechien</strong> (nume țară)</td><td>Tșe-hi-ăn</td><td><span class="ro-translation">Cehia</span></td></tr>
+                    <tr><td><strong>der Quatsch</strong> (substantiv nenumărabil)</td><td>Cvatș</td><td><span class="ro-translation">prostia (abstract — fără plural uzual în DE)</span></td></tr>
+                    <tr><td><strong>rutschen</strong> (verb)</td><td>Rutșăn</td><td><span class="ro-translation">a aluneca</span></td></tr>
+                    <tr><td><strong>der Matsch</strong> (substantiv nenumărabil)</td><td>Matș</td><td><span class="ro-translation">noroiul (substanță — fără plural)</span></td></tr>
                 </tbody>
             </table>
         </div>
@@ -164,15 +164,15 @@ const theoryHTML = `
             <table class="theory-table">
                 <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr><td><strong>das Haar</strong></td><td>Ha:r (a lung)</td><td><span class="ro-translation">părul</span></td></tr>
-                    <tr><td><strong>das Paar</strong></td><td>Pa:r (a lung)</td><td><span class="ro-translation">perechea</span></td></tr>
-                    <tr><td><strong>der Saal</strong></td><td>Za:l (a lung)</td><td><span class="ro-translation">sala</span></td></tr>
-                    <tr><td><strong>der Tee</strong></td><td>Te: (e lung)</td><td><span class="ro-translation">ceaiul</span></td></tr>
-                    <tr><td><strong>der See</strong></td><td>Ze: (e lung)</td><td><span class="ro-translation">lacul</span></td></tr>
-                    <tr><td><strong>das Beet</strong></td><td>Be:t (e lung)</td><td><span class="ro-translation">răsadnița</span></td></tr>
-                    <tr><td><strong>das Boot</strong></td><td>Bo:t (o lung)</td><td><span class="ro-translation">barca</span></td></tr>
-                    <tr><td><strong>der Zoo</strong></td><td>Țo: (o lung)</td><td><span class="ro-translation">grădina zoologică</span></td></tr>
-                    <tr><td><strong>das Moor</strong></td><td>Mo:r (o lung)</td><td><span class="ro-translation">mlaștina</span></td></tr>
+                    <tr><td><strong>das Haar · die Haare</strong></td><td>Ha:r (a lung)</td><td><span class="ro-translation">părul (firele, colectiv) · firele de păr (DE plural des folosit pentru fire individuale)</span></td></tr>
+                    <tr><td><strong>das Paar · die Paare</strong></td><td>Pa:r (a lung)</td><td><span class="ro-translation">perechea · perechile</span></td></tr>
+                    <tr><td><strong>der Saal · die Säle</strong></td><td>Za:l (a lung)</td><td><span class="ro-translation">sala · sălile</span></td></tr>
+                    <tr><td><strong>der Tee · die Tees</strong></td><td>Te: (e lung)</td><td><span class="ro-translation">ceaiul · ceaiurile</span></td></tr>
+                    <tr><td><strong>der See · die Seen</strong></td><td>Ze: (e lung)</td><td><span class="ro-translation">lacul · lacurile</span></td></tr>
+                    <tr><td><strong>das Beet · die Beete</strong></td><td>Be:t (e lung)</td><td><span class="ro-translation">răsadnița · răsadnițele</span></td></tr>
+                    <tr><td><strong>das Boot · die Boote</strong></td><td>Bo:t (o lung)</td><td><span class="ro-translation">barca · bărcile</span></td></tr>
+                    <tr><td><strong>der Zoo · die Zoos</strong></td><td>Țo: (o lung)</td><td><span class="ro-translation">grădina zoologică · grădinile zoologice</span></td></tr>
+                    <tr><td><strong>das Moor · die Moore</strong></td><td>Mo:r (o lung)</td><td><span class="ro-translation">mlaștina · mlaștinile</span></td></tr>
                 </tbody>
             </table>
         </div>
@@ -202,14 +202,14 @@ const theoryHTML = `
             <table class="theory-table">
                 <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr><td><strong>das Wasser</strong></td><td>Vasăr (a scurt)</td><td><span class="ro-translation">apa</span></td></tr>
-                    <tr><td><strong>die Kasse</strong></td><td>Kase (a scurt)</td><td><span class="ro-translation">casa de marcat</span></td></tr>
-                    <tr><td><strong>kommen</strong></td><td>Comăn (o scurt)</td><td><span class="ro-translation">a veni</span></td></tr>
-                    <tr><td><strong>der Mann</strong></td><td>Man (a scurt)</td><td><span class="ro-translation">bărbatul</span></td></tr>
-                    <tr><td><strong>die Sonne</strong></td><td>Zone (o scurt)</td><td><span class="ro-translation">soarele</span></td></tr>
-                    <tr><td><strong>der Sommer</strong></td><td>Zomăr (o scurt)</td><td><span class="ro-translation">vara</span></td></tr>
-                    <tr><td><strong>schwimmen</strong></td><td>Șvimăn (i scurt)</td><td><span class="ro-translation">a înota</span></td></tr>
-                    <tr><td><strong>das Bett</strong></td><td>Bet (e scurt)</td><td><span class="ro-translation">patul</span></td></tr>
+                    <tr><td><strong>das Wasser</strong> (substantiv nenumărabil)</td><td>Vasăr (a scurt)</td><td><span class="ro-translation">apa (pluralul „die Wässer" / „apele" pentru tipuri specifice)</span></td></tr>
+                    <tr><td><strong>die Kasse · die Kassen</strong></td><td>Kase (a scurt)</td><td><span class="ro-translation">casa de marcat · casele de marcat</span></td></tr>
+                    <tr><td><strong>kommen</strong> (verb)</td><td>Comăn (o scurt)</td><td><span class="ro-translation">a veni</span></td></tr>
+                    <tr><td><strong>der Mann · die Männer</strong></td><td>Man (a scurt)</td><td><span class="ro-translation">bărbatul · bărbații</span></td></tr>
+                    <tr><td><strong>die Sonne · die Sonnen</strong></td><td>Zone (o scurt)</td><td><span class="ro-translation">soarele · sorii (rar — sori din alte sisteme)</span></td></tr>
+                    <tr><td><strong>der Sommer · die Sommer</strong></td><td>Zomăr (o scurt)</td><td><span class="ro-translation">vara · verile</span></td></tr>
+                    <tr><td><strong>schwimmen</strong> (verb)</td><td>Șvimăn (i scurt)</td><td><span class="ro-translation">a înota</span></td></tr>
+                    <tr><td><strong>das Bett · die Betten</strong></td><td>Bet (e scurt)</td><td><span class="ro-translation">patul · paturile</span></td></tr>
                 </tbody>
             </table>
 

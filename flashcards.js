@@ -6,43 +6,43 @@
 
 const flashcardsData = [
     // ========== Sch (6 carduri) ==========
-    { de: "die Schule", ro: "școala · sch sună ca ș → Șule", audio: "audio/letters/schule.wav" },
+    { de: "die Schule · die Schulen", ro: "școala · școlile · sch sună ca ș → Șule", audio: "audio/letters/schule.wav" },
     { de: "schön", ro: "frumos · → Șö:n", audio: "audio/letters/schoen.wav" },
-    { de: "der Schnee", ro: "zăpada · → Șne:", audio: "audio/letters/schnee.wav" },
-    { de: "der Schmetterling", ro: "fluturele · → Șmeterling", audio: "audio/letters/schmetterling.wav" },
+    { de: "der Schnee", ro: "zăpada (substantiv nenumărabil; DEX pl. „zăpezile") · → Șne:", audio: "audio/letters/schnee.wav" },
+    { de: "der Schmetterling · die Schmetterlinge", ro: "fluturele · fluturii · → Șmeterling", audio: "audio/letters/schmetterling.wav" },
     { de: "schwarz", ro: "negru · → Șvarț", audio: "audio/letters/schwarz.wav" },
     { de: "schreiben", ro: "a scrie · → Șraibăn", audio: "audio/letters/schreiben.wav" },
 
     // ========== Sp/St la început sună ca șp/șt (7 carduri) ==========
     { de: "spielen", ro: "a se juca · sp- la început sună ca șp → Șpi:lăn", audio: "audio/letters/spielen.wav" },
     { de: "sprechen", ro: "a vorbi · → Șprehăn", audio: "audio/letters/sprechen.wav" },
-    { de: "der Sport", ro: "sportul · → Șport", audio: "audio/letters/sport.wav" },
+    { de: "der Sport · die Sportarten", ro: "sportul · sporturile (disciplinele) · → Șport", audio: "audio/letters/sport.wav" },
     { de: "stehen", ro: "a sta în picioare · st- la început sună ca șt → Ște:ăn", audio: "audio/letters/stehen.wav" },
-    { de: "die Stadt", ro: "orașul · → Ștat (a SCURT!)", audio: "audio/letters/stadt.wav" },
-    { de: "der Stuhl", ro: "scaunul · → Știu:l", audio: "audio/letters/stuhl.wav" },
-    { de: "der Stein", ro: "piatra · → Ștain", audio: "audio/letters/stein.wav" },
+    { de: "die Stadt · die Städte", ro: "orașul · orașele · → Ștat (a SCURT!)", audio: "audio/letters/stadt.wav" },
+    { de: "der Stuhl · die Stühle", ro: "scaunul · scaunele · → Știu:l", audio: "audio/letters/stuhl.wav" },
+    { de: "der Stein · die Steine", ro: "piatra · pietrele · → Ștain", audio: "audio/letters/stein.wav" },
 
     // ========== Sp/St în mijloc sună ca sp/st normal (4 carduri) ==========
-    { de: "die Wespe", ro: "viespea · sp în mijloc sună ca sp normal → Vespe", audio: "audio/letters/wespe.wav" },
-    { de: "die Kiste", ro: "cutia · st în mijloc sună ca st normal → Kiste", audio: "audio/letters/kiste.wav" },
-    { de: "das Fenster", ro: "fereastra · → Fenstăr", audio: "audio/letters/fenster.wav" },
+    { de: "die Wespe · die Wespen", ro: "viespea · viespile · sp în mijloc sună ca sp normal → Vespe", audio: "audio/letters/wespe.wav" },
+    { de: "die Kiste · die Kisten", ro: "cutia · cutiile · st în mijloc sună ca st normal → Kiste", audio: "audio/letters/kiste.wav" },
+    { de: "das Fenster · die Fenster", ro: "fereastra · ferestrele · → Fenstăr", audio: "audio/letters/fenster.wav" },
     { de: "er ist", ro: "el este · st la sfârșit sună ca st normal → ist", audio: "audio/letters/ist.wav" },
 
     // ========== Tsch (3 carduri) ==========
     { de: "Deutschland", ro: "Germania · tsch sună ca tș → Doitșland", audio: "audio/letters/deutschland.wav" },
     { de: "tschüss", ro: "pa! · → tșüs", audio: "audio/letters/tschuess.wav" },
-    { de: "der Quatsch", ro: "prostia · → Cvatș", audio: "audio/letters/quatsch.wav" },
+    { de: "der Quatsch", ro: "prostia (substantiv nenumărabil — abstract) · → Cvatș", audio: "audio/letters/quatsch.wav" },
 
     // ========== Doppelvokale aa/ee/oo (4 carduri) ==========
-    { de: "das Haar", ro: "părul · aa = a LUNG → Ha:r", audio: "audio/letters/haar.wav" },
-    { de: "der Tee", ro: "ceaiul · ee = e LUNG → Te:", audio: "audio/letters/tee.wav" },
-    { de: "der See", ro: "lacul · → Ze:", audio: "audio/letters/see.wav" },
-    { de: "das Boot", ro: "barca · oo = o LUNG → Bo:t", audio: "audio/letters/boot.wav" },
+    { de: "das Haar · die Haare", ro: "părul (colectiv, firele de păr) · firele de păr · aa = a LUNG → Ha:r", audio: "audio/letters/haar.wav" },
+    { de: "der Tee · die Tees", ro: "ceaiul · ceaiurile · ee = e LUNG → Te:", audio: "audio/letters/tee.wav" },
+    { de: "der See · die Seen", ro: "lacul · lacurile · → Ze:", audio: "audio/letters/see.wav" },
+    { de: "das Boot · die Boote", ro: "barca · bărcile · oo = o LUNG → Bo:t", audio: "audio/letters/boot.wav" },
 
     // ========== Doppelkonsonanten — vocală SCURTĂ (3 carduri) ==========
-    { de: "das Wasser", ro: "apa · ss = a SCURT → Vasăr", audio: "audio/letters/wasser.wav" },
-    { de: "kommen", ro: "a veni · mm = o SCURT → Comăn", audio: "audio/letters/kommen.wav" },
-    { de: "der Mann", ro: "bărbatul · nn = a SCURT → Man", audio: "audio/letters/mann.wav" },
+    { de: "das Wasser", ro: "apa (substantiv nenumărabil; DE pl. „die Wässer" pentru tipuri) · ss = a SCURT → Vasăr", audio: "audio/letters/wasser.wav" },
+    { de: "kommen", ro: "a veni (verb) · mm = o SCURT → Comăn", audio: "audio/letters/kommen.wav" },
+    { de: "der Mann · die Männer", ro: "bărbatul · bărbații · nn = a SCURT → Man", audio: "audio/letters/mann.wav" },
 
     // ========== Verbul haben (5 carduri) ==========
     { de: "ich habe", ro: "eu am · → ih ha:be", audio: "audio/letters/ich-habe.wav" },
