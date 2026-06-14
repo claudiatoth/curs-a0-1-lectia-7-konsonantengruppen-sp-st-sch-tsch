@@ -23,7 +23,7 @@ const theoryHTML = `
                 <p>Grupul <strong>sch</strong> se citește <strong>MEREU</strong> ca <strong>„ș"</strong> românesc — exact ca în „șapte" sau „mașină". Cele 3 litere fuzionează într-un sunet unic.</p>
                 <p style="margin-top: 8px;">📌 Apare la început, mijloc și sfârșit de cuvânt — pronunția nu se schimbă niciodată.</p>
             </div>
-            <div class="theory-box" style="background: #fffbeb; border-left: 4px solid #f59e0b; margin-bottom: 14px;">
+            <div class="theory-box" style="background: #F5F0E8; border-left: 4px solid #D4A574; margin-bottom: 14px;">
                 <h4>💡 Înainte să începem — Diacritice germane fără tastatură germană</h4>
                 <p>„Nu ai tastatură germană? <strong>Niciun stres!</strong> La toate exercițiile poți scrie:</p>
                 <ul style="margin: 6px 0 4px 18px;">
@@ -99,7 +99,7 @@ const theoryHTML = `
                 </tbody>
             </table>
 
-            <div class="theory-box" style="margin-top: 12px; background: #fef3c7; border-left: 4px solid #f59e0b;">
+            <div class="theory-box" style="margin-top: 12px; background: #F5F0E8; border-left: 4px solid #D4A574;">
                 <p>⚠️ <strong>Atenție la cuvintele compuse:</strong> dacă „st" sau „sp" începe a doua parte a unui cuvânt compus, se citește tot „șt" / „șp". Exemplu: <strong>aufstehen</strong> = auf-<u>ște</u>:ăn (a se trezi), <strong>versprechen</strong> = fer-<u>șpre</u>heăn (a promite).</p>
             </div>
         </div>

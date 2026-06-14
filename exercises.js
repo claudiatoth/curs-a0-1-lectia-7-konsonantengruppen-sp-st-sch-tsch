@@ -133,7 +133,7 @@ function buildEx3() {
     if (!c) return;
     let html = `<div class="exercise-instruction"><strong>📝 Completează cu sch, sp, st sau tsch.</strong><br><em>Reamintire:</em> sch = „ș" · sp = „șp" · st = „șt" · tsch = „tș".</div>`;
     ex3Data.forEach((it, i) => {
-        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#6b7280;">💡 ${it.hint}</small></label><input type="text" id="ex3-${it.id}" placeholder="sch / sp / st / tsch"></div><div class="feedback" id="ex3-f${it.id}"></div></div>`;
+        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#5A5147;">💡 ${it.hint}</small></label><input type="text" id="ex3-${it.id}" placeholder="sch / sp / st / tsch"></div><div class="feedback" id="ex3-f${it.id}"></div></div>`;
     });
     c.innerHTML = html;
 }
@@ -221,7 +221,7 @@ function buildEx5() {
     if (!c) return;
     let html = `<div class="exercise-instruction"><strong>📝 Completează cu forma corectă a verbului haben (a avea).</strong><br><em>Reamintire:</em> ich habe · du hast · er/sie/es hat · wir haben · ihr habt · sie/Sie haben.</div>`;
     ex5Data.forEach((it, i) => {
-        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#6b7280;">💡 ${it.hint}</small></label><input type="text" id="ex5-${it.id}" placeholder="habe / hast / hat / haben / habt"></div><div class="feedback" id="ex5-f${it.id}"></div></div>`;
+        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#5A5147;">💡 ${it.hint}</small></label><input type="text" id="ex5-${it.id}" placeholder="habe / hast / hat / haben / habt"></div><div class="feedback" id="ex5-f${it.id}"></div></div>`;
     });
     c.innerHTML = html;
 }

@@ -25,7 +25,7 @@ const verbsData = [
 function praesTable(rows) {
     let r = '';
     rows.forEach(function (x) {
-        r += '<tr><td><strong>' + x[0] + '</strong></td><td>' + x[1] + '</td><td><em style="color:#6b7280;">' + x[2] + '</em></td></tr>';
+        r += '<tr><td><strong>' + x[0] + '</strong></td><td>' + x[1] + '</td><td><em style="color:#5A5147;">' + x[2] + '</em></td></tr>';
     });
     return '<div class="theory-box" style="margin:8px 0;"><h4>Präsens (prezent)</h4><table class="grammar-table"><tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>' + r + '</table></div>';
 }
@@ -56,7 +56,7 @@ function buildVerbs() {
             '<div class="sub-section-content" id="verb-' + i + '">' +
             (v.recap ? '<div class="theory-box" style="background:#d1fae5;"><p style="margin:0;">📎 <strong>Recap</strong> — verb din <strong>' + v.recap + '</strong>, reluat aici ca referință.</p></div>' : '') +
             praesTable(v.praes) +
-            (v.note ? '<div class="theory-box" style="background:#fef3c7;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
+            (v.note ? '<div class="theory-box" style="background:#F5F0E8;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
             '</div></div>';
     });
     container.innerHTML = html;
